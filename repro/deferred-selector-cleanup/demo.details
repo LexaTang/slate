@@ -1,0 +1,4 @@
+name: Slate deferred selector cleanup reproduction
+description: A queued deferred selector still runs after its component unmounts.
+normalize_css: no
+load_type: d

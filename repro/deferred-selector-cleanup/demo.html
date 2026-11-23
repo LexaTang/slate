@@ -1,0 +1,19 @@
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.2.8",
+    "react-dom": "https://esm.sh/react-dom@19.2.8?external=react",
+    "react-dom/client": "https://esm.sh/react-dom@19.2.8/client?external=react",
+    "slate": "https://esm.sh/slate@0.147.4",
+    "slate-dom": "https://esm.sh/slate-dom@0.147.3?external=slate",
+    "slate-react": "https://esm.sh/slate-react@0.147.6?external=react,react-dom,slate,slate-dom"
+  }
+}
+</script>
+<h1>Deferred selector cleanup</h1>
+<p>slate-react 0.147.6</p>
+<button id="queue" disabled>1. Queue an update</button>
+<button id="unmount" disabled>2. Unmount one selector</button>
+<button id="flush" disabled>3. Mount Editable</button>
+<pre id="result" aria-live="polite">Loading…</pre>
+<div id="editor"></div>
